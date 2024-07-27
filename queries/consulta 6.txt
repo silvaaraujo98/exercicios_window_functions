@@ -1,0 +1,17 @@
+WITH PreviousPurchase AS (
+    SELECT invoicedate,
+           Customerid,
+           LAG(invoicedate, 1) OVER (PARTITION BY Customerid) AS PreviousPurchaseDate
+      FROM invoice
+),
+diff_date_by_customerid AS (
+    SELECT customerid,
+           julianday(invoicedate) - julianday(PreviousPurchaseDate) AS diff_btw_two_purchases
+      FROM PreviousPurchase
+     WHERE PreviousPurchaseDate IS NOT NULL
+)
+SELECT b.firstname || " " || b.lastname AS fullname,
+       a.diff_btw_two_purchases
+  FROM diff_date_by_customerid AS a
+       LEFT JOIN
+       customer AS b ON a.customerid = b.customerid;
