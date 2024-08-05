@@ -4,7 +4,7 @@ Claro! Aqui está o README em português:
 
 # Consultas SQL e Análise com SQLite e Pandas
 
-Este repositório contém um Jupyter Notebook que demonstra como realizar várias consultas SQL usando SQLite e Pandas. O notebook cobre exemplos práticos de funções de janela SQL e outras consultas para analisar dados armazenados em um banco de dados SQLite.
+Este repositório contém um Jupyter Notebook onde eu faço as questões de window functions que criei com o gpt, caso queira ver essa resolução em formato de artigo no medium segue o link [Artigo do Medium](https://medium.com/@jvsilvaaraujo98/exerc%C3%ADcios-de-window-functions-para-iniciantes-no-sqlite-5fe5e700e489)
 
 ## Índice
 
@@ -13,9 +13,10 @@ Este repositório contém um Jupyter Notebook que demonstra como realizar vária
 - [Uso](#uso)
 - [Consultas Incluídas](#consultas-incluídas)
 - [Contribuindo](#contribuindo)
+
 ## Introdução
 
-Este notebook tem como objetivo fornecer uma abordagem prática para entender e utilizar funções de janela SQL e outras consultas analíticas. Ao aproveitar a combinação do SQLite e Pandas, você pode realizar análises de dados e visualizações de forma eficiente.
+Este notebook tem como objetivo fornecer uma abordagem prática para entender e utilizar funções de janela SQL além de conectar um banco de dados através de um notebook jupyter.
 
 ## Configuração
 
