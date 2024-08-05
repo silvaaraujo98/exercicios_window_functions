@@ -16,7 +16,8 @@ Este repositório contém um Jupyter Notebook onde eu faço as questões de wind
 
 ## Introdução
 
-Este notebook tem como objetivo fornecer uma abordagem prática para entender e utilizar funções de janela SQL além de conectar um banco de dados através de um notebook jupyter.
+Este notebook tem como objetivo fornecer uma abordagem prática para entender e utilizar funções de janela SQL além de conectar um banco de dados através de um notebook jupyter. O banco de dados utilizado foi o do Thomas Nield do Livro Introdução à Linguagem SQL: Abordagem Prática Para Iniciantes. O banco se encontra no presente repositório.
+
 
 ## Configuração
 
