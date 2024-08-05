@@ -1,7 +1,3 @@
-Claro! Aqui está o README em português:
-
----
-
 # Consultas SQL e Análise com SQLite e Pandas
 
 Este repositório contém um Jupyter Notebook onde eu faço as questões de window functions que criei com o gpt, caso queira ver essa resolução em formato de artigo no medium segue o link [Artigo do Medium](https://medium.com/@jvsilvaaraujo98/exerc%C3%ADcios-de-window-functions-para-iniciantes-no-sqlite-5fe5e700e489)
